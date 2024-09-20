@@ -20,7 +20,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    target = os.environ.get('TARGET', 'World do Gusss')
+    target = os.environ.get('TARGET', 'World do Gussss')
     return 'Hello {}!\n'.format(target)
 
 if __name__ == "__main__":
